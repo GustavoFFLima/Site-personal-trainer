@@ -73,11 +73,12 @@ body {
 .content .contato{    
     position: absolute;
     width: 60%;
-    top: 30%;
+    top: 1px;
     left: 23%;
     text-align: center;
-    border: #f1f1f1 1px solid;
-    border-radius: 3px;
+}
+#form{
+    margin-right : 25px;
 }
 .footer {
     background-color: black;
