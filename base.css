@@ -10,8 +10,7 @@ body {
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    background-color: black;
 }
 .main {
     display: flex;
@@ -20,28 +19,52 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: black;
     padding: 10px 20px 0px;
 }
 .menu a {
     text-decoration: none;
+    color: #f1f1f1;
+    margin: 0px;
+}
+.menu p {
+    border: #f1f1f1 1px solid;
+    border-radius: 15px;
+    margin: 3px;
+    text-align: center;
 }
 .menu ul{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    max-height: 200px;
 }
 .content {
-    background-color: white;
+    color: white;
     min-height: 300px;
-    padding: 20px;
+    position: relative;
+    border: solid 3px black;
+}
+.content img{
+    filter: brightness(35%);
+}
+.content .text{
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    left: 23%;
+    text-align: justify;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: black;
     min-height: 50px;
-}
-.footer div p {
     text-align: center;
+    color: #f1f1f1;
+    border: solid 1px #f1f1f1;
+}
+.footer a{
+    text-decoration: none;
+    color: whitesmoke;
 }
